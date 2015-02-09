@@ -2,7 +2,7 @@
 export ZSH=$HOME/Dev/dotfiles
 
 # your project folder that we can `c [tab]` to
-export PROJECTS=~/Code
+export PROJECTS=~/Nemopay/code
 
 # use .localrc for SUPER SECRET CRAP that you don't
 # want in your public, versioned repo.
@@ -37,4 +37,8 @@ do
   source $file
 done
 
+# activate plugins
+plugins=( zshmarks )
+
 unset config_files
+
