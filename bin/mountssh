@@ -1,0 +1,3 @@
+#!/bin/bash
+mkdir /Volumes/sshfs
+sshfs "$1" /Volumes/sshfs -oauto_cache,reconnect,volname="$1"
