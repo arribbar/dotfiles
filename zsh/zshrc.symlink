@@ -38,7 +38,7 @@ do
 done
 
 # activate plugins
-plugins=( zshmarks )
+plugins=( zshmarks git sublime brew osx )
 
 unset config_files
 
