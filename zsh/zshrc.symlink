@@ -37,7 +37,4 @@ do
   source $file
 done
 
-# activate plugins
-plugins=( zshmarks git sublime brew osx django jira )
-
 unset config_files
