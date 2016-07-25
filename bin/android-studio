@@ -1,3 +1,0 @@
-#!/bin/bash
-export STUDIO_JDK=/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk
-open /Applications/Android\ Studio.app
