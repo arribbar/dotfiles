@@ -1,0 +1,29 @@
+# Use ctrl-q as prefix
+set-option -g prefix C-q
+bind-key C-q last-window
+
+# set scroll history to 10,000 lines
+set-option -g history-limit 10000
+
+# modern encoding and colors
+#set -g utf8 on set-window-option -g utf8 on
+set -g default-terminal screen-256color
+
+# Rather than constraining window size to the maximum size of any client 
+# connected to the *session*, constrain window size to the maximum size of any 
+# client connected to *that window*. Much more reasonable.
+setw -g aggressive-resize on
+
+# enable vi-like copy/paste
+#set-window-option -g mode-keys vi
+
+# Theme
+set -g status-bg black
+set -g status-fg white
+
+# Start at window 1
+set -g base-index 1
+
+# Use terminal scrolling
+set-window-option -g alternate-screen off
+set -g terminal-overrides "xterm*:smcup@:rmcup@"
