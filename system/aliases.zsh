@@ -1,6 +1,6 @@
 alias ls="ls -F"
-alias l="ls -lAh --color"
-alias ll="ls -l --color"
-alias la='ls -A --color'
+alias agi='ag -i'
 alias ql="qlmanage -p $? > /dev/null 2>&1"
-alias gill="docker-compose run --rm -u root web ./manage.py"
+alias manage="docker-compose run --rm -u root web ./manage.py"
+alias wz="docker-compose run --rm www"
+alias phraseapp='docker run --rm -ti -v $(PWD):/code -w /code francois2/phraseapp'

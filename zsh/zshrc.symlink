@@ -1,15 +1,8 @@
-# shortcut to this dotfiles path is $ZSH
-export ZSH=$HOME/.dotfiles
+# Path to your oh-my-zsh installation.
+export ZSH=/Users/arthur/.oh-my-zsh
 
 # your project folder that we can `c [tab]` to
-export PROJECTS=~/Nemopay/code
-
-# use .localrc for SUPER SECRET CRAP that you don't
-# want in your public, versioned repo.
-if [[ -a ~/.localrc ]]
-then
-  source ~/.localrc
-fi
+export PROJECTS=~/Code/Nemopay
 
 # all of our zsh files
 typeset -U config_files
@@ -38,3 +31,38 @@ do
 done
 
 unset config_files
+
+
+
+
+# Set name of the theme to load. Optionally, if you set this to "random"
+# it'll load a random theme each time that oh-my-zsh is loaded.
+# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+ZSH_THEME="pygmalion"
+
+# Uncomment the following line if you want to change the command execution time
+# stamp shown in the history command output.
+# The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
+# HIST_STAMPS="mm/dd/yyyy"
+
+# Would you like to use another custom folder than $ZSH/custom?
+# ZSH_CUSTOM=/path/to/new-custom-folder
+
+# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
+# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+# Add wisely, as too many plugins slow down shell startup.
+plugins=(git)
+
+source $ZSH/oh-my-zsh.sh
+
+# User configuration
+
+# You may need to manually set your language environment
+export LANG=en_US.UTF-8
+
+# ssh
+# export SSH_KEY_PATH="~/.ssh/rsa_id"
+
+# added by travis gem
+[ -f /Users/arthur/.travis/travis.sh ] && source /Users/arthur/.travis/travis.sh
