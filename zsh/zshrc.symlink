@@ -4,6 +4,14 @@ export ZSH=/Users/arthur/.oh-my-zsh
 # your project folder that we can `c [tab]` to
 export PROJECTS=~/Code/Nemopay
 
+# Stash your environment variables in ~/.localrc. This means they'll stay out
+# of your main dotfiles repository (which may be public, like this one), but
+# you'll have access to them in your scripts.
+if [[ -a ~/.localrc ]]
+then
+  source ~/.localrc
+fi
+
 # all of our zsh files
 typeset -U config_files
 config_files=($ZSH/**/*.zsh)
@@ -66,3 +74,11 @@ export LANG=en_US.UTF-8
 
 # added by travis gem
 [ -f /Users/arthur/.travis/travis.sh ] && source /Users/arthur/.travis/travis.sh
+# Better history
+# Credits to https://coderwall.com/p/jpj_6q/zsh-better-history-searching-with-arrow-keys
+autoload -U up-line-or-beginning-search
+autoload -U down-line-or-beginning-search
+zle -N up-line-or-beginning-search
+zle -N down-line-or-beginning-search
+bindkey "^[[A" up-line-or-beginning-search # Up
+bindkey "^[[B" down-line-or-beginning-search # Down
