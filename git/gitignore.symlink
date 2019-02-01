@@ -2,4 +2,5 @@
 *~
 *.swp
 *.rbc
+.idea/
 venv/
