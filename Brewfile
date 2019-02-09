@@ -15,10 +15,16 @@ brew 'yarn'
 brew 'youtube-dl'
 
 cask '1password'
+cask 'alfred'
+cask 'caffeine'
 cask 'firefox'
 cask 'google-chrome'
 cask 'handbrake'
 cask 'slack'
+cask 'table-tool'
 cask 'transmission'
 cask 'tunnelbear'
+cask 'visual-studio-code'
 cask 'vlc'
+
+mas 'Magnet', id: 441258766
