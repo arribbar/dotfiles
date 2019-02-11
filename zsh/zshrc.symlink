@@ -2,7 +2,7 @@
 export ZSH=/Users/arthur/.oh-my-zsh
 
 # your project folder that we can `c [tab]` to
-export PROJECTS=~/Code/Nemopay
+export PROJECTS=~/Code
 
 # Stash your environment variables in ~/.localrc. This means they'll stay out
 # of your main dotfiles repository (which may be public, like this one), but
@@ -69,12 +69,6 @@ source $ZSH/oh-my-zsh.sh
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
 
-# ssh
-# export SSH_KEY_PATH="~/.ssh/rsa_id"
-
-# added by travis gem
-[ -f /Users/arthur/.travis/travis.sh ] && source /Users/arthur/.travis/travis.sh
-# Better history
 # Credits to https://coderwall.com/p/jpj_6q/zsh-better-history-searching-with-arrow-keys
 autoload -U up-line-or-beginning-search
 autoload -U down-line-or-beginning-search
