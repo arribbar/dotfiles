@@ -8,15 +8,13 @@ brew 'jq'
 brew 'libgit2'
 brew 'node'
 brew 'readline'
-brew 'roundup'
-brew 'spaceman-diff'
+brew 'the_silver_searcher'
 brew 'wget'
 brew 'yarn'
 brew 'youtube-dl'
 
 cask '1password'
 cask 'alfred'
-cask 'caffeine'
 cask 'firefox'
 cask 'google-chrome'
 cask 'handbrake'
@@ -27,4 +25,5 @@ cask 'tunnelbear'
 cask 'visual-studio-code'
 cask 'vlc'
 
+mas 'DoubleShot', id: 1076145960
 mas 'Magnet', id: 441258766
