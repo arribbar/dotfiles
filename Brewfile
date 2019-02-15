@@ -24,6 +24,7 @@ cask 'slack'
 cask 'table-tool'
 cask 'transmission'
 cask 'tunnelbear'
+cask 'viscosity'
 cask 'visual-studio-code'
 cask 'vlc'
 
