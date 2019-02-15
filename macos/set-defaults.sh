@@ -39,3 +39,6 @@ defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 
 # Disable Terminal auto-mark
 defaults write com.apple.Terminal AutoMarkPromptLines -int 0
+
+# Don't open iTunes when iPhone is connected
+defaults write com.apple.iTunes dontAutomaticallySyncIPods -bool true
