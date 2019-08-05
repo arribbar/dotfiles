@@ -1,9 +1,11 @@
 # Path to your oh-my-zsh installation.
-export DOTFILES=/Users/arthur/.dotfiles
-export ZSH=/Users/arthur/.oh-my-zsh
+export DOTFILES=/Users/bart/.dotfiles
+export ZSH=/Users/bart/.oh-my-zsh
 
 # your project folder that we can `c [tab]` to
-export PROJECTS=~/Code
+export PROJECTS=~/workspace
+export PROJECT_EVER=~/workspace/everteam
+export PROJECT_HOPLA=~/workspace/codeMediapps/sehemu
 
 # Stash your environment variables in ~/.localrc. This means they'll stay out
 # of your main dotfiles repository (which may be public, like this one), but

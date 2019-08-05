@@ -20,5 +20,5 @@
 if [ ! -z "$1" ] && [ -s "$GOPATH/src/github.com/$1" ]; then
   cd "$GOPATH/src/github.com/$1"
 else
-  cd "$PROJECT_HOPLA/$1"
+  cd "$PROJECT_EVER/$1"
 fi
