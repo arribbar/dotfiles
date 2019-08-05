@@ -1,5 +1,4 @@
 #compdef e
-_files -W $PROJECT_EVER -/
-_files -W $GOPATH/src/github.com -/
+_files -W ~/workspace/everteam -/
 
 # See further documentation in `functions/e`.
