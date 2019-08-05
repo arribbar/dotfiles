@@ -1,0 +1,4 @@
+#compdef w
+_files -W ~/workspace/everteam -/
+
+# See further documentation in `functions/w`.
