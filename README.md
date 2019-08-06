@@ -67,6 +67,13 @@ defaults, and so on. Tweak this script, and occasionally run `dot` from
 time to time to keep your environment fresh and up-to-date. You can find
 this script in `bin/`.
 
+## functions
+To add a function like `c`, you need afterwards to run theses commands to have autocompletion:
+```
+compinit
+rm .zcompdump*
+```
+
 ## bugs
 
 I want this to work for everyone; that means when you clone it down it should
