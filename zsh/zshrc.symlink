@@ -3,9 +3,8 @@ export DOTFILES=/Users/bart/.dotfiles
 export ZSH=/Users/bart/.oh-my-zsh
 
 # your project folder that we can `c [tab]` to
-export PROJECTS=~/workspace
-export PROJECT_EVER=~/workspace/everteam
-export PROJECT_HOPLA=~/workspace/codeMediapps/sehemu
+export PROJECT_HOPLA=~/workspace/hopla
+export PROJECT_PREVIA=~/workspace/previa
 
 # Stash your environment variables in ~/.localrc. This means they'll stay out
 # of your main dotfiles repository (which may be public, like this one), but
@@ -72,3 +71,6 @@ bindkey "^[[B" down-line-or-beginning-search # Down
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
+# Volta config
+VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"
