@@ -33,7 +33,7 @@
 [help]
         autocorrect = 1
 [commit]
-	template = /Users/bart/.git_commit_msg.txt
+	template = /Users/bart/.dotfiles/git/git_commit_msg.txt
 [color]
         ui = always
 [color "branch"]
