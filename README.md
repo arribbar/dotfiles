@@ -47,6 +47,7 @@ There's a few special files in the hierarchy.
   symlinked in when you run `script/bootstrap`.
 
 ## install
+Before installing, you need to have oh-my-zsh installed
 
 Run this:
 
