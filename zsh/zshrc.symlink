@@ -72,5 +72,5 @@ bindkey "^[[B" down-line-or-beginning-search # Down
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 # Volta config
-VOLTA_HOME="$HOME/.volta"
+export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"

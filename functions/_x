@@ -1,0 +1,4 @@
+#compdef x
+_files -W $PROJECT_PREVIA -/
+
+# See further documentation in `functions/x`.
