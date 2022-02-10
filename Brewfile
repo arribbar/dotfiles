@@ -17,6 +17,7 @@ brew 'wget'
 brew 'yarn'
 
 cask '1password'
+cask 'alfred'
 cask 'alt-tab'
 cask 'calibre'
 cask 'discord'
