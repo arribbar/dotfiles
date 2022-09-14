@@ -1,4 +1,4 @@
-# holman does dotfiles
+# Bart does dotfiles from apuyou from holman
 
 Your dotfiles are how you personalize your system. These are mine.
 
@@ -24,7 +24,7 @@ symlinked without extension into `$HOME` when you run `script/bootstrap`.
 
 A lot of stuff. Seriously, a lot of stuff. Check them out in the file browser
 above and see what components may mesh up with you.
-[Fork it](https://github.com/holman/dotfiles/fork), remove what you don't
+[Fork it](https://github.com/arribbar/dotfiles/fork), remove what you don't
 use, and build on what you do use.
 
 ## components
@@ -52,7 +52,7 @@ Before installing, you need to have oh-my-zsh installed
 Run this:
 
 ```sh
-git clone https://github.com/holman/dotfiles.git ~/.dotfiles
+git clone https://github.com/arribbar/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 script/bootstrap
 ```
@@ -67,6 +67,21 @@ which sets up a few paths that'll be different on your particular machine.
 defaults, and so on. Tweak this script, and occasionally run `dot` from
 time to time to keep your environment fresh and up-to-date. You can find
 this script in `bin/`.
+
+## Brewfile
+To install or upgrade apps and utilites from Brewfile
+```bash
+brew bundle install --file=~/.dotfiles/Brewfile
+```
+
+Upgrade all apps
+```bash
+brew cu
+```
+
+You can search for a font or use [mas](https://github.com/mas-cli/mas) as well
+
+Some more tips on this [link](https://gist.github.com/ChristopherA/a579274536aab36ea9966f301ff14f3f)
 
 ## functions
 To add a function like `c`, you need afterwards to run theses commands to have autocompletion:

@@ -2,6 +2,8 @@ cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
 tap 'homebrew/cask-versions'
+tap "homebrew/cask-fonts"
+tap "buo/cask-upgrade"
 
 brew 'coreutils'
 brew 'gnupg'
@@ -9,6 +11,7 @@ brew 'grc'
 brew 'jq'
 brew 'libgit2'
 brew 'libsass'
+brew 'mas'
 brew 'node'
 brew 'pinentry-mac'
 brew 'readline'
