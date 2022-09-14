@@ -1,6 +1,7 @@
 cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
+tap 'homebrew/cask-versions'
 
 brew 'coreutils'
 brew 'gnupg'
@@ -26,20 +27,22 @@ cask 'docker'
 cask 'dozer'
 cask 'dropbox'
 cask 'firefox'
+cask 'firefox-developer-edition'
 cask "google-chrome"
 cask 'iterm2'
 cask 'microsoft-outlook'
-cask 'microsoft-teams'
+# microsoft-teams still running on rosetta 2. Check beta version
+# cask 'microsoft-teams'
 cask 'microsoft-remote-desktop'
 # Control another display's brightness
 cask 'monitorcontrol'
 cask 'ngrok'
 cask "notion"
+cask "postico"
 cask "postman"
 cask 'rectangle'
 cask "signal"
 cask 'slack'
-cask 'spark'
 cask 'spotify'
 cask 'visual-studio-code'
 cask 'vlc'
