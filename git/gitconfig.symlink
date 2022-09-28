@@ -26,6 +26,8 @@
         editor = nano
 [apply]
         whitespace = nowarn
+[pull]
+        rebase = false
 [mergetool]
         keepBackup = false
 [difftool]
