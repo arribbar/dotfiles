@@ -25,6 +25,7 @@ cask 'alfred'
 cask 'alt-tab'
 cask 'calibre'
 cask 'discord'
+cask 'deepl'
 cask 'docker'
 # Hide icons in menu bar
 cask 'dozer'
